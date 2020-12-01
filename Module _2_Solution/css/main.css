@@ -1,0 +1,82 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+h1{
+	font-weight: bolder;
+	text-align: center;
+}
+
+.container{
+	width: 100%;
+	padding: 15px;
+	
+	height: 450px;
+}
+.content_l{
+	width:33.3%;
+	 
+	float: left;
+	
+	
+
+}
+.boxes{
+
+	width: 90%;
+	border: 1px solid black;
+	font-weight: bolder;
+	background-color: grey;
+
+}
+.heading{
+	float: right;
+	border: 1px solid black;
+	padding: 7px 15px 15px 45px;
+	font-size: 1.5em;
+
+	
+}
+.text{
+	clear: right;
+	padding:15px;
+
+	
+	
+
+}
+#header_b{
+	background-color: rgb(222, 78, 162);
+
+
+}
+#header_a{
+	background-color: rgb(222, 58, 74);
+	color: white;
+}
+#header_c{
+	background-color: rgb(172, 201, 83);
+}
+@media(max-width:992px) and (min-width: 768px){
+	.content_m{
+		
+		width: 50%;
+	
+	}
+	#sushi{
+		margin-top: 25px;
+		width: 100%;
+		padding: 20px 15px 15px 55px;
+	}
+
+
+}
+@media (max-width: 767px){
+	.content_s{
+		width: 100%;
+		
+		padding: 15px;
+		
+	}
+}
