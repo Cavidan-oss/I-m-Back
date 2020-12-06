@@ -1,0 +1,211 @@
+*{box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+.d_flex{display: flex}
+.border{border: 1px solid black}
+.color{color: #336699}
+body{
+	background-color: #336699;
+}
+.container{
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #FFFFFF;
+
+}
+header{
+	width: 100%;
+	
+	background-color: white;
+
+}
+
+.logo{
+	width: 30%;
+	padding: 25px;	
+}
+.text_header{
+	width: 70%;
+	text-align: center;
+	position: relative;
+	top: 20px;
+	padding: 25px;	
+}
+.middle{
+	width: 100%;
+	background-image: url("adnsu.jpg ");
+	height: 400px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.third{
+	margin-top: 75px;
+	margin-bottom: 45px;
+	width: 100%;
+}
+.boxes{
+	
+	height: 200px;
+	width: 33.3%;
+}
+.exercise{
+		
+	width: 90%;
+	font-size: 32px;
+	position: relative;
+	left: 15px;
+	cursor: pointer;
+	font-weight: bold;
+	background-image: url("Exercises.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 10px;
+	height: 200px;
+	text-align: center;
+}
+.boxes a:link, .boxes a:visited {
+	text-decoration:none;
+	color: black;
+}
+.myProject{
+	text-align: center;
+	padding-top:30px;
+	font-size: 32px; 
+}
+/*You can ignore this part till line 101.I'm just triying something new*/
+#animatedtext{
+	padding-top: 50px;	
+	width: 550px;
+	height: 200px;
+	position: relative;
+	left: 259px;
+	text-align: center;
+	font-size: 48px;
+	font-weight: bolder;
+	
+}
+#cover{
+	width: 550px;
+	height: 200px;
+	position: relative;
+	right: 220px;
+	background-color: white;
+	 animation: gorunmezlik 4s infinite;
+	 
+}
+@keyframes gorunmezlik {
+  50% {opacity: 0;}
+}
+footer{
+	width: 100%;
+	height: 250px;
+	border-top: 1px solid black;
+	background-color: #D3D3D3;
+}
+.rights,.creator{
+	text-align: center;
+	padding: 10px;
+}
+.foot{
+	position: relative;
+	top: 40%;
+}
+#foot_link{
+	text-decoration: none;
+	color: black;
+}
+.color1{
+	color: #000066;
+}
+.navigation_menu{
+	height: 55px;
+	
+	width: 100%;
+}
+nav ul{
+	width: 100%;
+	
+}
+nav li{
+	display: inline;
+	float: left;
+
+}
+.navigators{
+	width: 25%;
+	text-align: center;
+	padding-top:15px;
+	padding-bottom:13px; 
+	font-weight: bolder;
+	font-size: 24px;
+	background-color:#336699;
+	
+}
+nav a:link,nav a:visited{
+	color: white;
+
+}
+nav a:hover {
+	
+	color: #330000;
+}
+.about_container{
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	height: 450px;
+	background-color: white;
+	margin-top: 50px;
+}
+.about_text{
+	padding: 25px;
+	width: 350px;	
+	position: relative;
+	left: 100px;
+	top: 100px;
+	font-size: 24px;
+
+}
+.about_photo{
+	position: relative;
+	left: 140px;
+	top: 80px;
+}
+.reg_container{
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #FFFFFF;
+	height: 600px;
+}
+.subheading{
+	font-size: 28px;
+	color: black;
+}
+
+.reg_content{
+	display: flex;
+	justify-content: center;
+	margin: 15px;
+}
+.texts{
+	position: relative;
+	top:18px;
+}
+#email_text,#phone_text{
+position: relative;
+top: 23px;	
+}
+.forms,.texts{
+	margin: 15px;
+	padding: 15px;
+}
+fieldset{
+	width: 150px;
+
+}
+
