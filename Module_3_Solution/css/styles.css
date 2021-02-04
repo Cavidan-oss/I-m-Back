@@ -1,0 +1,130 @@
+body {
+  font-size: 16px;
+  font-family: 'Oxygen', sans-serif;
+}
+.navbar-header{
+	height: 100px;
+}
+.navbar-brand{
+	padding: 0;
+	margin: 0;
+	padding-top: 25px;
+}
+#head-nav {
+  background-color: #7b7d85;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand h1{
+  font-family: 'Lora', serif;
+  color: #09090a;
+  font-size: 2em;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+  
+
+}
+.navbar-brand a:hover,button{
+	text-decoration: none;
+}
+
+
+#nav-menu a{
+	margin-top:0;
+	color: black;
+	border: 1px solid black;
+	
+}
+#nav-menu a:hover {
+  background: #E7E7E7;
+}
+#nav-menu a span {
+  font-size: 1.8em;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #000000;
+  background-color:#95a69e;
+}
+#header_of_content h2{
+	font-weight: bold;
+	font-size: 3vw;
+}
+
+#chicken-content,#beef-content,#sushi-content{
+	width: 100%
+	color: black;
+	background-color: #7b7d85;
+	border-radius: 10px;
+	margin-top: 25px;
+	border: 1px solid black;
+	font-size: 1.2em;
+}
+#chicken_name,#beef_name,#sushi_name{
+	font-weight: bold;
+	font-size: 1.5em;
+	color:black;
+}
+#main_page p{
+	font-style: italic;
+	margin-top: 10px;
+	margin-bottom: 25px;
+}
+
+/*Big Devices*/
+@media (min-width: 1200px) {
+#chicken-content,#beef-content,#sushi-content{
+	height: 1050px;
+}
+
+}
+/*Medium Devices*/
+@media (min-width: 992px) and (max-width: 1199px) {
+#chicken-content,#beef-content,#sushi-content{
+	height: 1300px;
+}
+}
+/*Small Devices */
+@media (min-width: 768px) and (max-width: 991px) {
+#header_of_content h2{
+font-size: 4vw;
+}
+#chicken-content,#beef-content{
+	height: 1075px;
+}
+#sushi-content{
+	height: 575px;
+	}
+}
+
+
+}
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+#mycollapsable{
+	border-bottom: none;
+	background-color: white;
+	margin-top: 0;
+	}
+.navbar-brand h1{
+	padding-left: 15px;
+}
+#header_of_content h2{
+font-size: 8vw;
+	}
+
+#chicken-content,#beef-content,#sushi-content{
+	height:auto;
+}
+}
+@media (max-width: 479px) {
+#header_of_content h2{
+	font-size: 25px;
+}
+#chicken-content,#beef-content,#sushi-content{
+	height:auto;
+}
+	}
